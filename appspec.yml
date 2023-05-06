@@ -1,0 +1,23 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html
+    overwrite: true
+
+permissions:
+  - object: /var/www/html
+    pattern: "**"
+    owner: root
+    group: root
+    mode: 775
+    type:
+      - directory
+      - file
+
+hooks:
+  BeforeInstall:
+
+  AfterInstall:
+
+  ApplicationStop:
