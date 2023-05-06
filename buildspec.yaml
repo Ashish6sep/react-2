@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+       - npm install react-scripts --force
+       - npm run build
+  post_build:
+     commands:
+        - cp -r appspec.yml build
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'build'
