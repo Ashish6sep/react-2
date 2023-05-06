@@ -1,0 +1,34 @@
+.increment {
+    float: left;
+    font-size: 20px;
+    padding: 3px 10px;
+    border-radius: 0px;
+}
+.decrement {
+    float: left;
+    font-size: 20px;
+    padding: 3px 13px;
+    border-radius: 0px;
+}
+
+.qty {
+    float: left;
+    text-align: center;
+}
+
+.stockout-btn {
+    background-color: #F00;
+    border-color: #F00;
+}
+
+.input-coupon {
+    width: auto;
+    float: left;
+    padding: 0 10px;
+    margin: 0 10px 0 0;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #f6f6f6;
+    background-color: #f6f6f6;
+    font-size: 14px;
+}

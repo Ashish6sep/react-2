@@ -1,0 +1,251 @@
+
+@media only screen and (min-width:0px) and (max-width:767px) {
+
+    .mob_site_menu {
+        background: url(../images/icon/menu_bg.jpg) no-repeat center center;
+    }
+    .mob_main_cart {
+        background: url(../images/icon/mob_cart.jpg) no-repeat center center;
+    }
+    .mob_main_user {
+        background: url(../images/icon/user.jpg) no-repeat center center;
+    }
+
+    .hide_small_screen{
+        display: none;
+    }
+    .mob_menu_wrapper .site_menu_wrapper_inner{
+        background: #040404;
+        clear: both;
+        height: 45px;
+        width: 100%; 
+    }
+    .mob_site_menu, .mob_main_user, .mob_main_cart {
+        height: 45px;
+        width: 32.3%;
+        display: inline-block;
+        vertical-align: top;
+        color: #FFF;
+        text-align: center;
+    }
+
+    .mob_main_user {
+        border-right: 1px solid #868686;
+        border-left: 1px solid #868686;
+        border-top: 0px solid #868686;
+        border-bottom: 0px solid #868686;
+    }
+    .mob_site_content {
+        left: -800px;
+        position: absolute;
+        top: 0px;
+        width: 260px;
+        height: 500%;
+        z-index: 9999;
+        overflow-y: auto;
+        background: url(//cdn.shopify.com/s/files/1/2553/6586/t/8/assets/box-shadow-mobile.png?1210082…) right 0px repeat-y rgb(255, 255, 255);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .mob_main_user_wrapper {
+        display: none;
+    }
+    body.current .mob_site_content {
+        left: -260px;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+    body.current {
+        left: 260px;
+        width: 100%;
+        overflow: hidden;
+        position: fixed;
+        height: 100%;
+    }
+    .mob_site_content li a {
+        font-size: 13px;
+        font-weight: 700;
+        color: #000;
+        padding: 12px 20px;
+        margin: 0;
+        border-bottom: 1px solid #e5e5e5;
+        display: block;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+    }
+    .mob_text_order {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #e7e7e7;
+        padding: 9px 10px;
+        color: #141414;
+        margin: 0;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        opacity: 0.7;
+        font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+    }
+    .mob_header_logo {
+        border-bottom: 1px solid #e7e7e7;
+        float: left;
+        margin: 28px 0 20px;
+        padding-bottom: 38px;
+        text-align: center;
+        width: 100%;
+    }
+    .mob_header_logo a img {
+        width: 147px;
+    }
+    .site-header {
+        margin: 0;
+    }
+    .user_login {
+        width: 100%;
+    }
+    .new_distributor_sign_up {
+        padding: 0;
+        margin: 12px 0 -7px 0;
+        width: 100%;
+    }
+    .lost_password{
+        margin: 0px;  
+    }
+    .footer-top {
+        text-align: center;
+    }
+    .footer_contact {
+        margin: 0 0 6px 0;
+    }
+    .site-footer h3 {
+        margin: auto auto 10px auto;
+    }
+    .site-footer .widget {
+        margin: 15px 0;
+    }
+    .footer-top ul.social, .footer-top .text {
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+        margin: 0 6px;
+    }
+    .user_name_email_field input,
+    .cus_button,
+    .input_type_file input[type=file],
+    .name_field,
+    .user_registration {
+        width: 100%;
+    }
+    .product-list-container {
+        width: 100%;
+    }
+    .scrollup {
+        padding: 0px 10px;
+        right: 15px;
+    }
+    .cart_add_product_img {
+        width: 80px;
+        height: 80px;
+    }
+    .variant-changer {
+        width: 100px;
+    }
+    .my_account_orders thead{
+        display: none;
+    }
+    .shop_table_responsive tr td::before {
+        content: attr(data-title) ": ";
+        font-weight: 700;
+        float: left;
+    }
+    .shop_table_responsive tr td {
+        display: block;
+        text-align: right!important;
+        border-width: 0px 0px 1px 0px !important;
+    }
+    .shop_table_responsive tr td:last-child {
+        border-width: 1px 0px 0px 0px !important;
+        padding: 15px;
+    }
+    .shop_table_responsive tr{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .table_search {
+        text-align: left;
+    }
+    .table_search select, .table_search input {
+        display: inline-block;
+        width: 100% !important;
+        margin: 6px 0;
+    }
+    .inner_content{
+        margin-top: 20px;
+    }
+    .my_account_orders tr td .order-rsp-change {
+        margin: 0 0 0 10px;
+    }
+    .page-title {
+        font-size: 15px;
+    }
+    .billing_address_container {
+        width: 100%;
+        margin: 30px 0 0 0;
+    }
+    .left_menu{
+        margin: 0 0 20px 0;
+        padding: 15px;
+    }
+    .get_in_touch .form-group input[type=text]{
+        width:100%;
+    }
+    .my_account .col-md-6{
+        padding: 0px;
+        margin: 10px 0;
+    }
+    .action_form{
+        padding: 15px;
+    }
+    .my_account .cus_button{
+        width: auto;
+    }
+    .terms_and_condition h3 {
+        font-size: 16px;
+        margin: 0 0 3px 0;
+    }
+    .athletes_list img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media only screen and (min-width:320px) and (max-width:1024px) {
+
+
+
+}
+
+@media only screen and (min-width:0px) and (max-width:767px) {
+
+}
+
+@media only screen and (min-width:0px) and (max-width:756px) {
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1900px) {
+
+}
+@media only screen and (min-width:768px) and (max-width:1024px) {
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+
+}

@@ -1,0 +1,731 @@
+/** smart phone **/
+
+@media only screen and (min-width:0px) and (max-width:767px) {
+   .meal-shipping-shedule{
+       display: none;
+   }
+   .selected-meal-qnt{
+        width: 100%;
+        height: 290px;
+        overflow: auto;
+    }
+    /** package **/
+    .packege__wrapper {
+        margin: 0;
+    }
+    .packege_title {
+        font-size: 20px;
+        margin: 22px 0;
+    }
+    .package_ctg {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    /** end package **/
+    /** select meal **/
+    .selected_meal {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .selected_meal_container ul li {
+        width: 100%;
+    }
+    .selected_meal_thumb_img {
+        width: 100%;
+        height: auto;
+        border-radius: 6px 6px 0 0;
+    }
+    .selected_meal_thumb_img img {
+        width: 100%;
+        height: auto;
+    }
+    .selected_meal_container {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+    .selected_meal_short_info {
+        width: 200px;
+        overflow: hidden;
+    }
+    /* .selected_meal{
+        display: none;
+    } */
+    /** end select meal **/
+    /** mob select meal **/
+    .mob_show_all_meal {
+        display: block;
+    }
+    .wlc_sms {
+        display: block;
+        color: #71bf49;
+        font-weight: 600;
+        text-align: center;
+        font-size: 15px;
+        font-style: italic;
+        border-top: 1px solid #3f3042;
+        padding: 8px 0;
+    }
+    .checkout_continue:hover, .checkout_continue {
+        display: block;
+        text-align: center;
+        width: 95%;
+        padding: 8px 0;
+        color: #3f3042;
+        font-size: 17px;
+        background-color: #71bf49;
+        text-transform: uppercase;
+        margin: 0px auto 10px auto;
+        font-weight: 600;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .show_all_meal {
+        display: block;
+        background-image: url(../images/icon/up_arrow.png);
+        background-repeat: no-repeat;
+        background-position: 20px center;
+        padding: 8px 0 8px 48px;
+        color: #71bf49;
+        font-weight: 600;
+    }
+    .show_all_meal.show_all_meal_close {
+        display: block;
+        background-image: url(../images/icon/down_arrow.png);
+        background-repeat: no-repeat;
+        background-position: 20px center;
+        padding: 8px 0 8px 48px;
+        color: #71bf49;
+        font-weight: 600;
+    }
+    .mob_show_select_meal_list {
+        display: none;
+    }
+    .mob_show_select_meal_list.open {
+        display: block;
+        width: 100%;
+        height: 550px;
+        position: absolute;
+        top: 98px;
+        background: #FFF;
+        overflow: scroll;
+        padding-bottom: 180px;
+    }
+    .selected-meal__image {
+        width: 60px;
+        height: 60px;
+        margin: 0 8px 0 0px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .selected-meal__image img {
+        width: 60px;
+        height: 60px;
+    }
+    .selected-meals-list>li {
+        -webkit-box-shadow: 0 16px 15px -20px #3f3042;
+        box-shadow: 0 16px 15px -20px #3f3042;
+        margin: 8px 0;
+    }
+    .selected-meal {
+        background-color: #fff;
+        border-radius: 4px;
+        border-style: solid;
+        border-width: 1px;
+        padding: 8px 12px;
+    }
+    .selected-meal__text {
+        width: 218px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .selected-meal__text>h3 {
+        line-height: 1.2;
+        margin-bottom: 2px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .selected-meal__text>h4 {
+        font-size: 11px;
+        font-style: italic;
+        font-weight: 600;
+    }
+    .selected-meal__remove-meal {
+        padding: 0px;
+        background: none;
+        border: 0px;
+    }
+    .select-meals__controls-list {
+        padding: 60px 8px 0px 8px;
+        background-image: -webkit-linear-gradient(rgba(63, 48, 66, .4), rgba(63, 48, 66, 0) 64px);
+        background-image: linear-gradient(rgba(63, 48, 66, .4), rgba(63, 48, 66, 0) 64px);
+    }
+    body.fixed {
+        overflow: hidden;
+    }
+    /** end mob select meal **/
+    /**  mob select meal **/
+    .mob_modal {
+        padding: 0px;
+    }
+    .modal_product_view_img {
+        float: none;
+        width: 100%;
+        overflow: hidden;
+        margin: 15px 0px 25px 0px;
+    }
+    .modal_product_view_desc {
+        width: 100%;
+        float: none;
+    }
+    .modal_product_view_desc h3 {
+        font-size: 20px;
+    }
+    /** end mob select meal **/
+    .selected_meal, .selected_meal.selected_meal-custom.selected_meal_fixed {
+        position: fixed !important;
+        top: auto !important;
+        bottom: -40px !important;
+        z-index: 9;
+        width: 100%;
+        left: 0;
+        right: 0;
+        border-radius: 0;
+        border-top: 1px solid #ced4da;
+    }
+    .add_1_meal_to_continue {
+        margin: 5px 0 8px 0;
+        font-size: 12px;
+        text-align: center;
+    }
+    .montserrat.add_1_meal_to_continue_btn {
+        position: absolute;
+        bottom: 36px;
+        right: 8px;
+    }
+    .add_1_meal_to_continue_btn a {
+        font-size: 10px;
+        padding: 8px 10px;
+    }
+    .add_1_meal_to_continue_btn a.meal-continue {
+        display: block;
+    }
+    .meals2-itemSearch-block {
+        display: block;
+        width: 100%;
+    }
+    .meals2-itemSearch .meal_search_box {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .selected_meal_container-inner-link {
+        float: none;
+        margin: 0 0 10px 0;
+    }
+    .selected_meal_thumb_title_qnt-2, .selected_meal ul, .selected_meal.selected_meal-custom.selected_meal_fixed ul {
+        display: none;
+        opacity: 0;
+        -webkit-transition: all 700ms ease;
+        -moz-transition: all 700ms ease;
+        -ms-transition: all 700ms ease;
+        -o-transition: all 700ms ease;
+        transition: all 700ms ease;
+        width: 100%;
+    }
+    .mobile-cart-visible .selected_meal_thumb_title_qnt-2, .mobile-cart-visible .selected_meal ul, .mobile-cart-visible .selected_meal.selected_meal-custom.selected_meal_fixed ul {
+        display: block;
+        opacity: 1;
+    }
+    .montserrat.selectedMealPricewrapper.selectedMealPricewrapper-custom>.selectedMealPrice:first-child, .montserrat.selectedMealPricewrapper.selectedMealPricewrapper-custom>.selectedMealPrice:nth-child(2) {
+        display: none;
+        opacity: 0;
+    }
+    .montserrat.selectedMealPricewrapper.selectedMealPricewrapper-custom .selectedMealPrice:nth-child(4) {
+        margin: 0 auto 10px auto;
+        width: 50%;
+        background-color: #efefef;
+        padding: 5px 12px;
+        display: block;
+    }
+    .mealSubscription {
+        width: 75%;
+    }
+    .mealSubscription .selectedMealPrice:first-child {
+        display: inline-block;
+    }
+    .mealSubscription [hidden] {
+        display: block !important;
+        visibility: hidden;
+    }
+    .mealSubscription .selectedMealPrice:first-child {
+        position: relative;
+        top: 5px;
+        padding-bottom: 5px;
+        margin: 0;
+    }
+    .mealSubscription .selectedMealPrice .form-check-input {
+        padding-bottom: 5px;
+        position: relative;
+        top: 4px;
+        margin-right: 3px;
+    }
+    .mealSubscription .selectedMealPrice .form-control {
+        height: 30px;
+        padding: 0;
+        font-size: 14px;
+    }
+    .selected_meal_title {
+        font-size: 13px;
+        margin: 0 0 10px 0;
+        text-align: center;
+        position: relative;
+        top: -4px;
+    }
+    .selectedMealPricewrapper-custom .selectedMealPrice {
+        margin: 0 0 10px 0;
+    }
+    .montserrat.selectedMealPricewrapper.selectedMealPricewrapper-custom {
+        margin: 0 0 10px 0;
+        overflow: hidden;
+    }
+    .scrollup {
+        /* bottom: 6px; */
+        bottom: 160px;
+        right: 10px;
+        opacity: 0;
+        display: none;
+    }
+    .mob-cart-show, .mob-cart-hide {
+        display: block;
+        opacity: 1;
+    }
+    .mob-cart-hide, .mob-cart-show {
+        border: 1px solid transparent;
+        color: #f1f1f1;
+        padding: 0;
+        position: absolute;
+        right: 12px;
+        bottom: auto;
+        top: 5px;
+        overflow: hidden;
+        text-indent: -9999px;
+        background-color: #fff;
+        border-radius: 50%;
+        width: 28px;
+        height: 28px;
+        border: 1px solid #111;
+        cursor: pointer;
+    }
+    .mob-cart-hide:focus, .mob-cart-show:focus {
+        outline: none;
+    }
+    .mob-cart-hide {
+        display: none;
+        opacity: 0;
+    }
+    .mob-cart-show {
+        background-image: url(../images/icon/up.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .mobile-cart-visible .mob-cart-show {
+        background-image: url(../images/icon/close1.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .mobile-body-cart {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:1024px) {}
+
+@media only screen and (min-width:0px) and (max-width:767px) {}
+
+@media only screen and (min-width:0px) and (max-width:756px) {}
+
+@media only screen and (min-width:768px) and (max-width:1900px) {}
+
+/** office samsung tab **/
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .selected_meal {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .selected_meal_container {
+        width: 100%;
+        margin-left: 0;
+    }
+    .selected_meal_container ul li {
+        width: 47%;
+    }
+    .selected_meal_thumb_img {
+        width: 100%;
+        height: auto;
+    }
+    .selected_meal_thumb_img img {
+        width: 100%;
+        height: auto;
+    }
+    .selected_meal_container ul li {
+        margin: 0 8px !important;
+    }
+    .package_ctg {
+        width: 226px;
+    }
+    .package_meal_qnt {
+        height: 180px;
+        width: 180px;
+        font-size: 90px;
+        line-height: 165px;
+    }
+    .package_ctg_per_week {
+        font-size: 13px;
+    }
+    .package_ctg_per_week_rate {
+        font-size: 16px;
+    }
+    .selected_meal-protein ul li {
+        width: auto !important;
+        text-align: left;
+    }
+    .selected_meal.selected_meal-custom.selected_meal_fixed {
+        /* position: fixed;
+        top: 48px; */
+        z-index: 99;
+        width: 40%;
+    }
+    .selected_meal {
+        width: 260px !important;
+    }
+    .selected_meal_container-inner-link {
+        margin: -10px -5px 0 0;
+        font-size: 12px;
+    }
+    .selected_meal_container {
+        width: 60% !important;
+        margin-left: 0;
+    }
+    .selected_meal_container ul li {
+        width: 45% !important;
+    }
+    .selected_meal_thumb_title {
+        font-size: 12px;
+        padding: 14px 8px;
+        height: 86px;
+    }
+    .selected_meal-protein ul li {
+        width: 20% !important;
+        padding-bottom: 8px;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {}
+
+/** this css for ipad office **/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+    .selected_meal {
+        width: 100%;
+        margin-bottom: 20px;
+        /* border: 1px solid red !important; */
+    }
+    .selected_meal_container {
+        width: 100%;
+        margin-left: 0;
+    }
+    .selected_meal_container ul li {
+        width: 47%;
+    }
+    .selected_meal_thumb_img {
+        width: 100%;
+        height: auto;
+    }
+    .selected_meal_thumb_img img {
+        width: 100%;
+        height: auto;
+    }
+    .selected_meal_container ul li {
+        margin: 0 8px !important;
+    }
+    /**======== Orientation css ========**/
+    .selected_meal_container {
+        width: 100% !important;
+        margin-left: 0;
+    }
+    .selected_meal_container ul li {
+        width: 31% !important;
+        background-size: 100%;
+        background-position: center 99%;
+    }
+    .selected_meal-radio-block-2 .variation-new-system {
+        padding: 5px;
+        margin: 0 0 10px 0;
+        overflow: hidden;
+    }
+    .selected_meal-protein ul li:first-child {
+        margin-left: -8px !important;
+        padding-left: 0 !important;
+    }
+    .selected_meal-protein ul li {
+        width: 12% !important;
+    }
+    .selected_meal, .selected_meal.selected_meal-custom.selected_meal_fixed {
+        position: fixed !important;
+        top: auto !important;
+        bottom: -20px !important;
+        z-index: 9;
+        width: 100%;
+        left: 0;
+        right: 0;
+        border-radius: 0;
+        border-top: 1px solid #ced4da;
+        width: 100% !important;
+    }
+    .montserrat.selectedMealPricewrapper.selectedMealPricewrapper-custom>.selectedMealPrice:first-child, .montserrat.selectedMealPricewrapper.selectedMealPricewrapper-custom>.selectedMealPrice:nth-child(2) {
+        display: none;
+        opacity: 0;
+    }
+    .montserrat.selectedMealPricewrapper.selectedMealPricewrapper-custom .selectedMealPrice:nth-child(4) {
+        margin: 0 auto 10px auto;
+        width: 200px;
+        background-color: #efefef;
+        padding: 5px 12px;
+        display: block;
+    }
+    .mealSubscription {
+        width: 250px;
+        margin: auto;
+        text-align: center;
+    }
+    .selected_meal_title {
+        margin: 0 0 10px 0;
+        text-align: center;
+        position: relative;
+        top: -5px;
+    }
+    .selected_meal-custom .selected_meal_short_info {
+        width: 60%;
+    }
+    .selected_meal_thumb_title_qnt-2, .selected_meal ul, .selected_meal.selected_meal-custom.selected_meal_fixed ul {
+        display: none;
+        opacity: 0;
+        -webkit-transition: all 700ms ease;
+        -moz-transition: all 700ms ease;
+        -ms-transition: all 700ms ease;
+        -o-transition: all 700ms ease;
+        transition: all 700ms ease;
+    }
+    .mobile-cart-visible .selected_meal_thumb_title_qnt-2, .mobile-cart-visible .selected_meal ul, .mobile-cart-visible .selected_meal.selected_meal-custom.selected_meal_fixed ul {
+        display: block;
+        opacity: 1;
+    }
+    .selected_meal>ul.selected-meal-qnt {
+        /* height: 200px;
+        overflow-y: auto; */
+        width: 100% !important;
+    }
+    .mob-cart-show, .mob-cart-hide {
+        display: block;
+        opacity: 1;
+    }
+    .mob-cart-hide, .mob-cart-show {
+        border: 1px solid transparent;
+        color: #f1f1f1;
+        padding: 0;
+        position: absolute;
+        right: 12px;
+        bottom: auto;
+        top: 5px;
+        overflow: hidden;
+        text-indent: -9999px;
+        background-color: #fff;
+        border-radius: 50%;
+        width: 28px;
+        height: 28px;
+        border: 1px solid #111;
+        cursor: pointer;
+    }
+    .mob-cart-hide:focus, .mob-cart-show:focus {
+        outline: none;
+    }
+    .mob-cart-hide {
+        display: none;
+        opacity: 0;
+    }
+    .mob-cart-show {
+        background-image: url(../images/icon/up.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .mobile-cart-visible .mob-cart-show {
+        background-image: url(../images/icon/close1.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .mobile-body-cart {
+        overflow: hidden;
+    }
+    .add_1_meal_to_continue {
+        margin: 5px 0 5px 0;
+    }
+    .selectedMealPricewrapper-custom .selectedMealPrice {
+        margin: 0 0 5px 0;
+    }
+     .site_menu ul li a.menu_item {
+        margin: 18px 5px 13px !important;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
+   .selected_meal.selected_meal-custom.existing-subscription {
+    top: 1.5%!important;
+}
+
+.selected_meal.selected_meal-custom.selected_meal_fixed.existing-subscription{
+    top: 15%!important;
+}
+.selected_meal.selected_meal-custom.selected_meal_fixed{
+    top: 8%!important;
+}
+   
+    .selected_meal.selected_meal-custom {
+        width: 300px !important;
+        position: absolute;
+         top: 0% !important;
+    }
+    .selected_meal_container {
+        width: 100% !important;
+        margin: 0;
+        padding-left: 310px;
+    }
+    .selected_meal_container ul li {
+        background-size: 100%;
+        background-position: center 99%;
+    }
+    .selected_meal-radio-block-2 .variation-new-system {
+        padding: 8px;
+        margin: 0 0 10px 0;
+        overflow: hidden;
+    }
+    .selected_meal-protein ul li {
+        width: 14% !important;
+    }
+    .selected_meal-protein ul li:first-child {
+        margin-left: -8px !important;
+        padding-left: 0 !important;
+    }
+    .selected_meal>ul.selected-meal-qnt {
+        /* height: 185px !important;
+        overflow-y: auto;  */
+        width: 275px !important;
+    }
+    .selected_meal-custom .selected_meal_short_info {
+        width: 92px;
+    }
+    .selected_meal-custom .selected_meal_short_info h3 {
+        font-size: 12px;
+    }
+    .selectedMealPricewrapper-custom .selectedMealPrice {
+        margin: 0 0 10px 0;
+    }
+    .mealSubscription .form-check {
+        padding-bottom: 5px;
+    }
+}
+
+/** //EnD this css for ipad office **/
+
+@media only screen and (min-width: 1024px) and (max-width:1366px) {
+    .selected_meal>ul {
+        /* height: 180px; */
+        /* border: 1px solid gold !important; */
+    }
+    .add_1_meal_to_continue {
+        margin: 20px 0;
+    }
+}
+
+@media screen and ( max-height: 900px) {
+    
+    .selected_meal.selected_meal-custom {
+        top: 46%;
+    }
+    .selected_meal.selected_meal-custom.existing-subscription {
+        top: 60%;
+    }
+    /* .selected_meal>ul.selected-meal-qnt {
+        height: 96px;
+    } */
+    .add_1_meal_to_continue {
+        margin: 5px 0;
+    }
+    .selected_meal_thumb_title_qnt-2 {
+        margin: 10px 0 0 0;
+    }
+    .selected_meal {
+        padding: 10px 15px;
+    }
+}
+
+@media screen and ( max-height: 699px) {
+    .selected_meal>ul {
+        /* height: auto;
+        max-height: 160px;
+        min-height: 100px;
+        overflow: auto; */
+        /* border: 1px solid red !important;         */
+    }
+    .selected_meal.selected_meal-custom.existing-subscription {
+    top: 68%;
+}
+    .selected_meal.selected_meal-custom {
+        top: 58%;
+    }
+    .selected_meal-bottom-fixed {
+        top: -59% !important;
+    }
+    .add_1_meal_to_continue {
+        margin: 20px 0;
+    }
+}
+
+@media screen and ( max-height: 599px) {
+    .selected_meal>ul {
+        /* border: 1px solid green !important; */
+        /* height: auto;
+        max-height: 104px;
+        min-height: 100px;
+        overflow: auto; */
+    }
+    .selected_meal.selected_meal-custom {
+        top: 65%;
+    }
+    .selected_meal-bottom-fixed {
+        top: -59% !important;
+    }
+    .add_1_meal_to_continue {
+        margin: 15px 0;
+    }
+}
+
+@media screen and ( max-height: 499px) {
+    .selected_meal>ul {
+        /* border: 2px solid indigo !important;  */
+        display: none;
+        opacity: 0;
+    }
+    .add_1_meal_to_continue {
+        margin: 15px 0;
+    }
+}
+    @media screen and ( max-height: 477px) {
+    .selected_meal.selected_meal-custom{
+        top: 50%;
+
+    }
+}

@@ -1,0 +1,12 @@
+export const ADD_FLASH_MESSAGE = "ADD_FLASH_MESSAGE";
+export const DELETE_FLASH_MESSAGE = "DELETE_FLASH_MESSAGE";
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const CHECK_OUT = "CHECK_OUT";
+export const ADD_TO_CART = "ADD_TO_CART";
+export const REMOVE_FROM_CART = "REMOVE_FROM_CART";
+export const UPDATE_CART = "UPDATE_CART";
+export const INC_CART_QTY = "INC_CART_QTY";
+export const DEC_CART_QTY = "DEC_CART_QTY";
+export const APPLY_COUPON = "APPLY_COUPON";
+export const REMOVE_COUPON = "REMOVE_COUPON";
+export const ADD_MEAL_TO_CART = "ADD_MEAL_TO_CART";

@@ -1,0 +1,79 @@
+.athletes_container{
+    width: 100%;
+}
+.grid-item {
+    float: left;
+    padding:8px;
+    display: block;
+}
+.grid-item .thumbnail{
+    display: block;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+}
+.grid-item img{
+    width: 100%;
+    height: auto;
+}
+.caption h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+}
+.grid{
+    width: 100%;
+}
+
+.grid-sizer,
+.grid-item { width: 25%; }
+
+@media screen and (max-width: 768px) {
+    
+    .caption {
+        text-align: center;
+    }
+    .caption h3{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 900px){
+    .grid-sizer,
+    .grid-item { width: 33%; }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .grid-sizer,
+    .grid-item { width: 50%; }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .grid-sizer,
+    .grid-item { width: 50%; }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .grid-sizer,
+    .grid-item { width: 33%; }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .grid-sizer,
+    .grid-item { width: 25%; }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .grid-sizer,
+    .grid-item { width: 25%; }
+}

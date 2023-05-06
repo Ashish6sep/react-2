@@ -1,0 +1,1586 @@
+/***breadcrumb_cus***/
+
+.breadcrumb_cus {
+    margin-bottom: 20px;
+}
+
+.breadcrumb_cus ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.breadcrumb_cus ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.breadcrumb_cus ul li a {
+    color: #9a9a9a;
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 4px 0 0;
+    padding: 0 6px 0px 0;
+    border-right: 1px solid #9a9a9a;
+    text-decoration: none;
+}
+
+.breadcrumb_cus ul li:last-child a {
+    border-right: 0px solid #9a9a9a;
+}
+
+.page_title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 10px 0 0 0;
+}
+
+/***EnD breadcrumb_cus***/
+
+/* The container */
+
+.cus_radio {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+
+.cus_radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 23px;
+    width: 23px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #bfc7d7;
+}
+
+/* On mouse-over, add a grey background color */
+
+.cus_radio:hover input~.checkmark {
+    /*    background-color: #ccc;*/
+}
+
+/* When the radio button is checked, add a blue background */
+
+.cus_radio input:checked~.checkmark {
+    background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+
+.cus_radio input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+
+.cus_radio .checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #c2cad9;
+}
+
+/* meal_select_list */
+
+.meal_list_header_container {
+    padding-left: 21px;
+}
+
+.meal_select_list {
+    margin: 52px 0 82px 0;
+}
+
+.meal_list {
+    background: #f1f1f1;
+    border-radius: 10px;
+    padding: 3px 16px 0px 16px;
+    margin: 0 0 12px 0;
+    border: 1px solid transparent;
+}
+
+.meal_list .meal_per_week_down, .meal_list .meal_per_week_rate, .meal_list .meal_per_week, .meal_list .cus_radio {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.meal_per_week_down {
+    background: #000;
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+    border-radius: 100px;
+    padding: 7px 20px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 23px 0 0 0;
+    /* position: relative; */
+    /* left: -682px; */
+}
+
+.meal_per_week {
+    margin: 7px 0 0 12px;
+}
+
+.meal_per_week_number {
+    color: #141414;
+    background: #fff;
+    padding: 5px;
+    border-radius: 100%;
+    font-size: 50px;
+    display: inline-block;
+    width: 88px;
+    height: 89px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 68px;
+    vertical-align: middle;
+    border: 8px solid #f1f1f1;
+    position: relative;
+    margin: -9px 0 0 0;
+    vertical-align: top;
+}
+
+.meal_per_week_title {
+    background: #fff;
+    text-align: center;
+    font-size: 20px;
+    color: #141414;
+    height: 70px;
+    display: inline-block;
+    width: 240px;
+    margin: 0px 0 0 -21px;
+    vertical-align: top;
+    line-height: 70px;
+    border-radius: 0 6px 6px 0;
+}
+
+.meal_per_week_rate {
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 33px;
+}
+
+.meal_per_week_rate span {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.meal_per_week_rate span span {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px;
+}
+
+.meal_list_open {
+    border-top: 1px solid #c2c2c2;
+    padding: 8px 18px;
+}
+
+.meal_list_open_header {
+    margin: 0 0 10px 0;
+}
+
+.subs_select, .selected_number, .continue_btn {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.subs_select {
+    margin: 0 142px 0 0;
+}
+
+.selected_number {
+    font-size: 16px;
+    color: #534556;
+}
+
+.continue_btn a {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 7px 40px;
+    font-size: 15px;
+    background: #000;
+    color: #fff;
+    text-decoration: none !important;
+    font-weight: 300;
+    border-radius: 100px;
+}
+
+.meal_list_img, .meal_list_ctg, .meal_list_qnt {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.meal_list_img {
+    margin: 0 28px 0 0;
+}
+
+.meal_list_ctg h3 {
+    color: #141414;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.sub_title {
+    color: #141414;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    font-style: italic;
+}
+
+.meal_list_qnt {
+    width: 280px;
+    text-align: right;
+}
+
+.meal_list_qnt span {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #b5b5b5;
+    background: #f1f1f1;
+    display: inline-block;
+    margin: 4px;
+    border-radius: 100%;
+    vertical-align: top;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.meal_list_qnt span.active {
+    border: 1px solid #000;
+    background: #000;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.meal_list_content {
+    background: #fff;
+    padding: 0 15px 0 0;
+    border-bottom: 2px solid #f1f1f1;
+    position: relative;
+}
+
+.meal_list_wrapper {
+    max-height: 640px;
+    overflow-y: scroll;
+}
+
+.meal_list_active {
+    border: 1px solid #bfc7d7;
+}
+
+.outer-container {
+    position: absolute;
+    display: table;
+    width: 300px;
+    height: 78px;
+    /*border: 1px solid #ccc;*/
+    top: 0px;
+    right: 0px;
+}
+
+.inner-container {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.centered-content {
+    display: inline-block;
+    text-align: right;
+    background: #fff;
+}
+
+/* //EnD meal_select_list */
+
+/** package **/
+
+.packege__wrapper {}
+
+.packege__wrapper {
+    margin: 0 0 110px 0;
+}
+
+.package_ctg {
+    width: 288px;
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 15px;
+    padding: 25px 25px 12px 25px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0 2px;
+}
+
+.package_title {
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+
+.package_meal_qnt {
+    background: #fff;
+    height: 208px;
+    width: 208px;
+    text-align: center;
+    font-size: 150px;
+    display: block;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 180px;
+    margin: -7px auto 0px auto;
+    border: 10px solid #f1f1f1;
+    position: relative;
+}
+
+.package_meal_qnt_per_week {
+    background: #fff;
+    margin: -97px 0 15px 0;
+    border-radius: 15px;
+    height: 200px;
+}
+
+.package_ctg_per_week {
+    display: block;
+    top: 110px;
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.package_ctg_per_week_rate {
+    display: block;
+    top: 116px;
+    position: relative;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.package_ctg_select, .package_ctg_select:hover {
+    display: inline-block;
+    vertical-align: top;
+    padding: 16px 30px;
+    background: #141414;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 17px 0 0 0px;
+    width: 100%;
+    border-radius: 47px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0px;
+}
+
+.package_ctg_popular {
+    border: 1px solid #a4a4a4;
+}
+
+.package_ctg_popular_title {
+    font-size: 18px;
+    font-weight: bolder;
+    border-bottom: 2px solid #000;
+    padding: 0px 0 3px 0;
+    width: 150px;
+    text-align: center;
+    margin: 0px auto 30px auto;
+}
+
+.packege_title {
+    font-size: 28px;
+    margin: 22px 0 60px 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+/** package **/
+
+/** select meal **/
+
+.selected_meal {
+    width: 360px;
+    float: left;
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 6px;
+    -webkit-transition: all 700ms ease;
+    -moz-transition: all 700ms ease;
+    -ms-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+    transition: all 700ms ease;
+}
+
+.selected_meal_title {
+    font-weight: 500;
+    color: #534556;
+    font-size: 16px;
+    margin: 4px 0 10px 0;
+}
+
+.selected_meal_title span {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.selected_meal ul li {
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.selected_meal_img {
+    display: inline-block;
+    width: 78px;
+    height: 78px;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.selected_meal_img img {
+    width: 78px;
+    height: 78px;
+}
+
+.selected_meal_short_info {
+    display: inline-block;
+    vertical-align: middle;
+    width: 230px;
+    margin: 8px 0 0 0;
+}
+
+.selected_meal_short_info span {
+    font-weight: 600;
+    display: block;
+    color: #141414;
+    font-size: 16px;
+}
+
+.selected_meal_short_info h3 {
+    font-weight: 600;
+    display: block;
+    color: #141414;
+    font-size: 16px;
+    margin: 8px 0 0 0;
+    padding: 0px;
+}
+
+.selected_meal_short_info h4 {
+    font-weight: normal;
+    display: block;
+    color: #141414;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    font-style: italic;
+}
+
+.selected_meal_remove {
+    display: inline-block;
+    position: absolute;
+    right: 4px;
+    top: -4px;
+    color: #b9b9b9;
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.add_1_meal_to_continue {
+    margin: 20px 0;
+    text-align: center;
+    color: #333a40;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.add_1_meal_to_continue_btn {
+    text-align: center;
+}
+
+.add_1_meal_to_continue_btn a {
+    background: #9d9d9d;
+    border-radius: 30px;
+    color: #787878;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.add_1_meal_to_continue_btn a.active {
+    background: #000;
+    color: #fff;
+}
+
+.selected_meal_container {
+    float: right;
+    width: 800px;
+    margin-left: 0;
+}
+
+.selected_meal_thumb_img {
+    width: 260px;
+    height: 234px;
+    overflow: hidden;
+    border-radius: 6px 6px 0 0;
+    cursor: pointer;
+}
+
+.selected_meal_container ul li {
+    text-align: center;
+    width: 257px;
+    background-image: url(../images/meal_list_bg.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding: 0 0 25px 0;
+    display: inline-block;
+    margin: 0 13px 0 0;
+}
+
+.selected_meal_container ul li:nth-child(3n + 3) {
+    margin: 0px;
+}
+
+.selected_meal_thumb_img {
+    width: 257px;
+    height: 234px;
+    border-radius: 6px 6px 0 0;
+    cursor: pointer;
+}
+
+.selected_meal_thumb_img img {
+    width: 257px;
+    height: 234px;
+    border-radius: 6px 6px 0 0;
+}
+
+.selected_meal_thumb_title {
+    font-weight: 600;
+    display: block;
+    color: #141414;
+    font-size: 16px;
+    margin: 0;
+    padding: 15px 8px;
+    height: 102px;
+    overflow: hidden;
+}
+
+.selected_meal_thumb_title strong {
+    cursor: pointer;
+    display: block;
+    text-align: center;
+}
+
+.selected_meal_thumb_title span {
+    display: block;
+    font-weight: normal;
+    display: block;
+    color: #141414;
+    font-size: 16px;
+    margin: 3px 0px 8px 0px;
+    padding: 0px;
+    font-style: italic;
+}
+
+.selected_meal_container_short_details {
+    background: #f1f1f1;
+    padding: 0 0 10px 0;
+    border-radius: 0 0 6px 6px;
+}
+
+.meal_list_qnt.selected_meal_thumb_title_qnt {
+    text-align: center;
+    width: 100%;
+}
+
+.meal_list_qnt.selected_meal_thumb_title_qnt span {
+    margin: 4px 2px;
+}
+
+.modal_product_view_img {
+    float: left;
+    width: 600px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.modal_product_view_img img {
+    width: 100%;
+}
+
+.modal_product_view_desc {
+    width: 342px;
+    float: left;
+}
+
+.meal_details_view_desc {
+    font-size: 13px;
+}
+
+.product-view-modal-dialog {
+    max-width: 1000px;
+    margin: 1.75rem auto;
+}
+
+.nutritional-facts__summary {
+    text-align: center;
+}
+
+.nutritional-facts__summary>li {
+    color: #141414;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.33333333%;
+    /* flex: 0 0 33.33333333%; */
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    display: block;
+    margin: 0px 0 25px 0;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    border-bottom: 0px solid #efefef;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+.modal-variation-list {
+    background-color: whitesmoke;
+    padding: 6px 10px;
+    text-align: center;
+    margin: 0px 0;
+}
+
+.modal-variation-list li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.modal-variation-list li label, .modal-variation-list li span {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    color: #141414;
+    margin: 0;
+    float: inherit;
+}
+
+.modal-variation-list li span {
+    font-style: italic;
+}
+
+.nutritional-facts {
+    margin-bottom: 20px;
+}
+
+.nutritional-facts__summary>li>label {
+    color: #3f3042;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 82px;
+    margin: 0px;
+}
+
+.modal_product_view_desc h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 0 25px 0;
+}
+
+.modal_close {
+    position: absolute;
+    right: 6px;
+    top: 3px;
+    z-index: 99;
+}
+
+.meals_sub_title {
+    font-family: "Montserrat", sans-serif !important;
+    margin: 0px 0px 10px 0px !important;
+    font-size: 21px !important;
+    font-weight: 500 !important;
+    padding-top: 8px !important;
+    color: #3e3e3e !important;
+    padding: 0 !important;
+}
+
+/** mob select meal **/
+
+.mob_show_all_meal {
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #3f3042;
+}
+
+.mob_show_select_meal_list {
+    display: none;
+}
+
+/* .orderby_meal_search {
+    width: 206px;
+} */
+
+.orderby_meal_search {
+    width: 206px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: flex-end;
+}
+
+.meal-disble {
+    background-color: #c2c2c2 !important;
+    cursor: not-allowed !important;
+}
+
+.meal-continue {
+    background-color: #000000 !important;
+    color: #f1f1f1 !important;
+}
+
+.meal-item-disble {
+    cursor: not-allowed !important;
+}
+
+/** //EnD mob select meal **/
+
+/** //end select meal **/
+
+/** .selectedMealPricewrapper **/
+
+.selectedMealPricewrapper {
+    /* background: #e6e6e6;
+    padding: 6px 10px 0px 10px; 
+    margin: 0 auto 10px auto;*/
+    width: 100%;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.meal_cart_hr {
+    margin: 5px 0px 5px 0px;
+}
+
+.selectedMealPriceTotal {
+    padding: 0px 0px 6px 0px;
+    margin: 0;
+    text-align: right;
+}
+
+.selectedMealPriceTotal span {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 8px;
+}
+
+.selectedMealPriceBold {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.selectedMealPrice {
+    margin: 0 0 5px 0;
+}
+
+.selectedMealCtg .form-check {
+    cursor: pointer;
+}
+
+/** End .selectedMealPricewrapper **/
+
+/**=================== Add New Meals style=====================**/
+
+.selected_meal_container-inner ul {
+    margin-bottom: 10px;
+}
+
+.selected_meal-protein {
+    margin-bottom: 20px;
+    padding: 0 8px 0 15px;
+    text-align: left;
+}
+
+.selected_meal-protein ul li {
+    background: none;
+    width: 20% !important;
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.selected_meal-protein ul li strong {
+    display: block;
+    font-size: 12px;
+    color: #141414;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 15px;
+}
+
+.selected_meal-protein ul li span {
+    display: block;
+    font-size: 14px;
+    color: #141414;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.meal-category-type-header {
+    font-weight: 700;
+    font-size: 16px;
+    color: #141414;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+/**=================== Add New Meals style Custom Radio box=====================**/
+
+.selected_meal-radio-block {
+    padding: 0 8px 0 15px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.selected_meal-radio-block .selected_meal-radio {
+    display: inline-block;
+    position: relative;
+    padding-left: 26px;
+    margin: 0;
+    cursor: pointer;
+    font-size: 14px;
+    color: #141414;
+    font-weight: 400;
+    text-align: left;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 50%;
+}
+
+.selected_meal-radio-block .selected_meal-radio small {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 13px;
+    letter-spacing: -0.5px;
+    position: relative;
+    top: -5px;
+    line-height: 15px;
+    display: block;
+    text-align: left;
+}
+
+.selected_meal-radio-block .selected_meal-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.selected_meal-radio-block .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    border: 2px solid #141414;
+}
+
+.selected_meal-radio:hover input~.checkmark {
+    background-color: #f1f1f1;
+}
+
+.selected_meal-radio input:checked~.checkmark {
+    background-color: #f1f1f1;
+}
+
+.selected_meal-radio-block .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.selected_meal-radio input:checked~.checkmark:after {
+    display: block;
+}
+
+.selected_meal-radio-block .selected_meal-radio .checkmark:after {
+    top: 2px;
+    /* left: 2.8px; */
+    left: 2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #141414;
+}
+
+/**=================== Left Selected Meal=====================**/
+
+.selected_meal.selected_meal-custom ul li {
+    margin-bottom: 2px;
+    min-height: 100px;
+}
+
+.selected_meal.selected_meal-custom ul li .selected_meal_img {
+    height: 100px;
+}
+
+.selected_meal_img-box {
+    width: 78px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected_meal_container-inner .selected_meal_thumb_title span {
+    font-size: 14px;
+    letter-spacing: -0.2px;
+}
+
+.selected_meal_container-inner .selected_meal_thumb_title span {
+    font-size: 14px;
+}
+
+.selected_meal_input-custom {
+    width: 90px;
+    position: absolute;
+    right: 5px;
+    top: auto;
+    bottom: 0;
+}
+
+.selected_meal_input-custom ul {
+    background-color: #b9b9b9;
+    width: 85px;
+    height: 28px;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.selected_meal_input-custom ul li {
+    display: inline-block;
+    margin: 0 0 0 1.5px !important;
+    min-height: auto !important;
+}
+
+.selected_meal_input-custom ul li button.btn {
+    width: 19px;
+    height: 28px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #fff;
+    background-color: #b9b9b9;
+    border-radius: 0;
+    border: 0;
+}
+
+.selected_meal_input-custom ul li button.btn:hover, .selected_meal_input-custom ul li button.btn:focus {
+    border: 0;
+    outline: 0;
+    box-shadow: none
+}
+
+.selected_meal-custom .selected_meal_short_info {
+    width: 139px;
+}
+
+.selected_meal-custom .selected_meal_short_info h3 {
+    font-weight: 600;
+    display: block;
+    color: #141414;
+    font-size: 14px;
+    margin: 8px 0 0 0;
+    padding: 0px;
+}
+
+.selected_meal_input-custom ul li input.form-control-add {
+    width: 40px;
+    height: 23px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #000;
+    position: relative;
+    top: 1px;
+    overflow: hidden;
+}
+
+.selected_meal_input-custom ul li input.form-control-add:focus {
+    border: 0;
+    outline: 0;
+    box-shadow: none
+}
+
+.selected_meal_input-custom span {
+    color: #141414;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+    text-align: center;
+    padding: 4px 0;
+}
+
+.selected_meal_short_info span {
+    color: #141414;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+    text-align: left;
+    padding: 4px 0;
+}
+
+.selectedMealPricewrapper-custom .selectedMealPrice {
+    margin: 0 0 10px 0;
+    position: relative;
+    overflow: hidden;
+    color: #333a40;
+    font-size: 12px;
+}
+
+.selectedMealPricewrapper-custom .selectedMealPriceBold {
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: right;
+}
+
+.selectedMealPricewrapper-custom .selectedMealPriceBold small {
+    display: block;
+    font-style: italic;
+}
+
+.selectedMealPricewrapper-custom .selectedMealPriceLabel span {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+}
+
+.selectedMealPricewrapper-custom .selected_meal_title {
+    margin: 4px 0 16px 0;
+}
+
+.selected_meal>ul.selected-meal-qnt {
+    /* border: 1px solid red; */
+    height: 212px;
+    overflow-y: auto;
+    width: 330px;
+}
+
+.selected_meal.selected_meal-custom.selected_meal_fixed {
+    position: fixed;
+    top: 60px;
+    -webkit-transition: all 700ms ease;
+    -moz-transition: all 700ms ease;
+    -ms-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+    transition: all 700ms ease;
+}
+
+/* .selected_meal.selected_meal-custom {
+    position: fixed;
+    top: 40%;
+} */
+
+.selected_meal.selected_meal-custom {
+    position: fixed;
+    top: 40%;
+}
+.selected_meal.selected_meal-custom.existing-subscription {
+    top: 50% ;
+}
+
+.selected_meal.selected_meal-custom.selected_meal_fixed.existing-subscription{
+    position: fixed;
+    top: 60px;
+    -webkit-transition: all 700ms ease;
+    transition: all 700ms ease;
+}
+
+.selected_meal-bottom-fixed {
+    position: fixed;
+    top: -25% !important;
+    -webkit-transition: all 700ms ease;
+    -moz-transition: all 700ms ease;
+    -ms-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+    transition: all 700ms ease;
+}
+
+/* .selected_meal>ul {
+    border: 1px solid red;
+    height: 404px;
+    overflow-y: auto;
+    width: 346px;
+} */
+
+.selected_meal-radio-block-2 {
+    padding: 0 8px;
+    margin-bottom: 0px;
+}
+
+.selected_meal-radio-block-2 .selected_meal-protein {
+    padding: 0 8px;
+    text-align: center;
+    margin: 0px;
+}
+
+.selected_meal-radio-block-2 .selected_meal-protein ul li strong {
+    font-size: 11px;
+}
+
+.selected_meal-radio-block-2 .variation-new-system {
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    padding: 6px;
+    margin: 0 0 10px 0;
+}
+
+.selected_meal-radio-block-2 .variation-new-system .selected_meal-protein ul {
+    margin: 0;
+}
+
+.selected_meal-radio-block-2 .selected_meal-radio {
+    width: 100%;
+}
+
+.selected_meal-radio-block-2 .checkmark {
+    top: -9px;
+}
+
+.selected_meal-radio-block-2 .selected_meal-radio small {
+    font-size: 12px;
+}
+
+.selected_meal-radio-block-2 .selected_meal-radio small span {
+    font-weight: 600;
+}
+
+.selected_meal-radio-block-2 .selected_meal-protein ul li span {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.selected_meal_thumb_title_qnt-2 {
+    margin: 15px 0 0 0;
+}
+
+.meal_list_qnt-2 span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meal_list_qnt-2 span .selected-number {
+    border: 0px;
+    background: transparent;
+    width: auto;
+    height: auto;
+    padding: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.selected_meal_container-inner-link {
+    position: relative;
+    float: right;
+    margin: -33px -8px 0 0;
+    font-size: 12px;
+}
+
+.selected_meal_container-inner-link a {
+    font-weight: 500;
+    color: #534556;
+    text-decoration: underline !important;
+}
+
+.meal_list_qnt-2 span {
+    overflow: hidden;
+    color: transparent;
+}
+
+.meal_list_qnt-2 .active.animation-class {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/**===================  For animation Meal=====================**/
+
+.meal_list_qnt.meal_list_qnt-2 span {
+    overflow: visible !important;
+}
+
+.meal_list_qnt span {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #b5b5b5;
+    background: #f1f1f1;
+    display: inline-block;
+    margin: 4px;
+    border-radius: 100%;
+    vertical-align: top;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+}
+
+.animationAdded {
+    padding: 0px;
+    margin: 0 !important;
+    top: -2px;
+    left: -2px;
+    overflow: hidden;
+    text-indent: -99999999999px;
+}
+
+.meal_list_qnt span span.active {
+    text-indent: inherit;
+    color: #FFF;
+}
+
+.meal_list_qnt span span.active {
+    position: absolute;
+    left: -1px;
+    right: 0;
+    top: -1px;
+    bottom: 0;
+    background-color: #000000;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #000000;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    animation-timing-function: ease;
+    -webkit-transition: all 900ms ease;
+    -moz-transition: all 900ms ease;
+    -ms-transition: all 900ms ease;
+    -o-transition: all 900ms ease;
+    transition: all 900ms ease;
+}
+
+@-webkit-keyframes bounceOut {
+    20% {
+        -webkit-transform: scale3d(1.9, 1.9, 1.9);
+        transform: scale3d(1.9, 1.9, 1.9)
+    }
+    50%, 55% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1)
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+}
+
+@keyframes bounceOut {
+    20% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9)
+    }
+    50%, 55% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1)
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+}
+
+.bounceOut {
+    -webkit-animation-duration: .75s;
+    animation-duration: .75s;
+    -webkit-animation-name: bounceOut;
+    animation-name: bounceOut
+}
+
+.animated {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.animated.delay-1s {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s
+}
+
+.animated.delay-2s {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s
+}
+
+.animated.delay-3s {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s
+}
+
+.animated.delay-4s {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s
+}
+
+.animated.delay-5s {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s
+}
+
+.animated.fast {
+    -webkit-animation-duration: .8s;
+    animation-duration: .8s
+}
+
+.animated.faster {
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s
+}
+
+.animated.slow {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s
+}
+
+.animated.slower {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s
+}
+
+@media (prefers-reduced-motion:reduce), (print) {
+    .animated {
+        -webkit-animation-duration: 1ms!important;
+        animation-duration: 1ms!important;
+        -webkit-transition-duration: 1ms!important;
+        transition-duration: 1ms!important;
+        -webkit-animation-iteration-count: 1!important;
+        animation-iteration-count: 1!important
+    }
+}
+
+.selected_meal.selected_meal-custom .meal_list_qnt.selected_meal_thumb_title_qnt span {
+    cursor: default !important;
+}
+
+.meal-allergen {
+    display: block;
+    /* text-align: left; */
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    color: #000 !important;
+}
+
+.meal-allergen span {
+    display: inline-block;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    font-style: italic;
+}
+
+/**=================== Meals 2 item Search=====================**/
+
+.meals2-itemSearch-block {
+    width: 84%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.meals2-itemSearch .meal_search_box {
+    display: inline-block;
+    vertical-align: middle;
+    width: 168px;
+    height: 33px;
+    padding: 0 10px;
+    margin: 0 15px 0 0;
+    border-radius: 0;
+    border: 1px solid#ced4da;
+}
+
+.mob-cart-show, .mob-cart-hide {
+    display: none;
+    opacity: 0;
+}
+
+.montserrat.selectedMealPricewrapper.selectedMealPricewrapper-custom .selectedMealPrice:nth-child(4) {
+    width: 100%;
+    margin-right: 1%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 3px;
+    position: relative;
+    top: 3px;
+}
+
+.montserrat.selectedMealPricewrapper.selectedMealPricewrapper-custom .selectedMealPrice:nth-child(4) .form-check-input {
+    margin-right: 1px;
+    margin-top: 1px;
+}
+
+.montserrat.selectedMealPricewrapper.selectedMealPricewrapper-custom .selectedMealPrice:nth-child(5) {
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    height: 30px;
+    right: 15px;
+}
+
+.montserrat.selectedMealPricewrapper.selectedMealPricewrapper-custom .selectedMealPrice:nth-child(5) .form-control {
+    height: 30px;
+    padding: 0;
+    font-size: 14px;
+}
+
+.montserrat.selectedMealPricewrapper.selectedMealPricewrapper-custom {
+    margin-bottom: 22px;
+}
+
+.mealSubscription {
+    /* border: 1px solid #f00; */
+}
+
+.mealSubscription .selectedMealPrice {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mealSubscription .selectedMealPrice:first-child {
+    position: relative;
+    top: 8px
+}
+
+.mealSubscription .selectedMealPrice:last-child {
+    float: right;
+    height: 35px;
+}
+
+.mealSubscription .selectedMealPrice:last-child .form-control {
+    height: 35px;
+    font-size: 12px;
+}
+
+/**=================== Meals 2 Top section=====================**/
+
+.existing-subscription-meals {
+    margin-top: -20px;
+    margin-bottom: 45px;
+    overflow: hidden;
+    position: relative;
+}
+.existing-subscription-meals .order_details_list{
+margin:0 ;
+}
+
+.existing-subscription-meals h2.montserrat {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.existing-subscription-meals h2.montserrat span {
+    padding: 0 5px 0 20px;
+}
+
+.changeSubscription-select {
+    min-height: 100px;
+}
+
+.mealSubscription .selectedMealPrice .form-check .form-check-input {
+    margin-top: 0.1rem;
+}
+.existing-subscription-list{
+    margin: 0;
+}
+.existing-subscription-list li{
+    font-size: 0.6vw;
+}

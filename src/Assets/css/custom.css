@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,700|Roboto:100,100i,300,300i,400,400i,500,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,500,700');
+.cus_messages{
+    padding-left: 20px !important;
+}
+.cus_messages i {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 11px 0 0;
+    margin: -2px 0 0 0;
+}
+
+.cus_input-text{
+    width: auto !important;
+    margin: 0 10px 0 0 !important;
+}
+.cus_cart_totals {
+    border-width: 1px;
+    padding: 15px 30px 30px 30px;
+    border-style: solid;
+    position: relative;
+    margin: 30px 0 60px 0;
+    border-color: #e1e1e1;
+    float: none;
+    width: 100%;
+}
+.cus_cart_totals table{
+    border-width: 0px 0 0 0 !important;
+}
+.cus_cart_totals table tr td,
+.cus_cart_totals table tr th {
+    padding: 10px 25px 10px 0 !important;
+    text-transform: uppercase !important;
+    font-weight: normal !important;
+}
+.cus_cart_totals .order-total th,
+.cus_cart_totals .order-total td{
+    border-width: 0px 0 0 0 !important;
+}
+
+.cus_cart_totals tr td{
+    text-align: right;
+}
+.cus_cart_totals .order-total th{
+    border: 0 !important;
+    font-size: 16px !important;
+    padding-top: 20px !important;
+    font-weight: bold !important;
+}
+.cus_cart_totals .order-total td{
+    font-size: 24px !important;
+}
+.cus_cart_totals .wc-proceed-to-checkout a {
+    display: block !important;
+    text-align: center;
+    margin: 0;
+    font-size: inherit;
+    padding: 0 20px;
+}
+
+/** login page **/
+
+.userLoginDiv{
+    width: 50%;
+    margin: 0px auto;
+}
+.userLoginDiv .form-row{
+    display: inherit; 
+}
+.woocommerce-Button.button{
+    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+}
+.userLoginDiv a{
+    text-decoration: none;
+}
+
+.user_or_email_field{
+    width: 47%;
+}
+
+.woocommerce-notices-wrapper {
+    margin: 0 0 60px 0;
+}
+.user_registration label {
+    display: block;
+    width: 100%;
+}
+.user_registration input[type=file]{
+    line-height: 30px;
+}
+.user_registration .required {
+    color: red;
+    font-weight: 700;
+    border: 0!important;
+    text-decoration: none;
+    visibility: visible !important;
+}
+.user_registration .form-row a{
+    text-decoration: none;
+}
