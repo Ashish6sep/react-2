@@ -2,14 +2,14 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html
+    destination: /home/stagpublic1.prestigelabsaffs/public_html
     overwrite: true
 
 permissions:
-  - object: /var/www/html
+  - object: /home/stagpublic1.prestigelabsaffs/public_html
     pattern: "**"
-    owner: root
-    group: root
+    owner: apache
+    group: apache
     mode: 775
     type:
       - directory
@@ -17,7 +17,7 @@ permissions:
 
 hooks:
   BeforeInstall:
-
+    
   AfterInstall:
 
   ApplicationStop:
