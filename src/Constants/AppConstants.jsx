@@ -43,15 +43,23 @@ export const DEMO_SITE_WARNING_TEXT = '"This is not a real site. It\'s developme
 // export const PUBLIC_URL = 'https://dev-prestigelabs.net/';
 
 //For local
-export const BASE_URL = 'http://localhost:3003/';
-export const BASE_DOMAIN = '.localhost';
-export const ECOM_URL = 'http://localhost:3003/';
-export const API_URL = 'http://localhost:8080/gymlaunch/api-prestigelabs/';
-export const DISTRIBUTOR_URL = 'http://localhost:3000/';
-export const CUSTOMER_URL = 'http://localhost:3001/';
-export const REFER_URL = 'http://localhost:3002/';
-export const PUBLIC_URL = 'http://localhost:3003/';
-
+//export const BASE_URL = 'http://localhost:3003/';
+//export const BASE_DOMAIN = '.localhost';
+//export const ECOM_URL = 'http://localhost:3003/';
+//export const API_URL = 'http://localhost:8080/gymlaunch/api-prestigelabs/';
+//export const DISTRIBUTOR_URL = 'http://localhost:3000/';
+//export const CUSTOMER_URL = 'http://localhost:3001/';
+//export const REFER_URL = 'http://localhost:3002/';
+//export const PUBLIC_URL = 'http://localhost:3003/';
+//staging public url
+export const BASE_URL = 'https://stagpublic1.prestigelabsaffs.com/';
+export const BASE_DOMAIN = '.prestigelabs.com';
+export const ECOM_URL = 'https://stagpublic1.prestigelabsaffs.com/';
+export const API_URL = 'https://staging-api.prestigelabsaffs.com/';
+export const DISTRIBUTOR_URL = 'https://staging-affiliate.prestigelabsaffs.com/';
+export const CUSTOMER_URL = 'https://staging-customer.prestigelabsaffs.com/';
+export const REFER_URL = 'https://staging-refer.prestigelabsaffs.com/';
+export const PUBLIC_URL = 'https://stagpublic1.prestigelabsaffs.com/';
 export const API_KEY = 'cp/W?^,([{,O_+T';
 export const SITE = "public";
 export const DOWNTIME_ACCESS_CODE = "wewillbeup";
